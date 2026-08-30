@@ -4,51 +4,39 @@ class aritmetica:
     def __init__(self, x, y): 
         self.x = x 
         self.y = y 
-
     def suma(self): 
         return self.x + self.y 
-
     def resta(self): 
         return self.x - self.y 
-
     def multi(self): 
         return self.x * self.y 
-
     def division(self): 
         if self.y == 0:
             return "Error division por 0"
         else:
             return self.x / self.y 
-     
     def modulo(self): 
         if self.y == 0:
             return "Error modulo por 0"
         else:
-            return self.x % self.y 
- 
+            return self.x % self.y  
  
 class trigonometria: 
     def __init__(self, x): 
         self.x = x 
-
     def seno(self): 
         return math.sin(self.x) 
-
     def coseno(self): 
         return math.cos(self.x) 
- 
- 
+  
 class potencia: 
     def __init__(self, x, y): 
         self.x = x 
         self.y = y 
-
     def potencia(self): 
         return pow(self.x, self.y) 
-
     def lognat(self): 
         return math.log(self.x) 
-
     def log10(self): 
         return math.log10(self.x) 
  
